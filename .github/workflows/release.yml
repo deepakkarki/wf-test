@@ -9,5 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
+          echo "something new"
           echo '${{ toJSON(github.event) }}' | jq
           
