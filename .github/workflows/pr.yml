@@ -11,4 +11,5 @@ jobs:
       - name: Checkout
         run: |
           which java
+          java --version
           env
